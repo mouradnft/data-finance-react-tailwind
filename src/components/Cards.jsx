@@ -1,45 +1,55 @@
 import React from 'react';
-import Single from '../assets/single.png'
-import Double from '../assets/double.png'
-import Triple from '../assets/triple.png'
+import Usa from '../assets/Usa.jpg';
+import Canada from '../assets/Canada.jpg';
 
 const Cards = () => {
   return (
-    <div className='w-full py-[10rem] px-4 bg-white'>
-      <div className='max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8'>
-          <div className='w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300'>
-              <img className='w-20 mx-auto mt-[-3rem] bg-white' src={Single} alt="/" />
-              <h2 className='text-2xl font-bold text-center py-8'>Single User</h2>
-              <p className='text-center text-4xl font-bold'>$149</p>
-              <div className='text-center font-medium'>
-                  <p className='py-2 border-b mx-8 mt-8'>500 GB Storage</p>
-                  <p className='py-2 border-b mx-8'>1 Granted User</p>
-                  <p className='py-2 border-b mx-8'>Send up to 2 GB</p>
-              </div>
-              <button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3'>Start Trial</button>
+    <div className="w-full py-[5rem] px-4 bg-white">
+      <div className="max-w-[1240px] mx-auto grid md:grid-cols-2 gap-8">
+        <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
+          <h1 className="text-2xl font-bold text-center py-8">
+            Immigration au Canada
+          </h1>
+          <img
+            className="text-center text-4xl font-bold"
+            src={Canada}
+            alt="/"
+          ></img>
+          <div className="text-center font-medium">
+            <p className="py-2 border-b mx-8 mt-8">
+              Le Canada vous offre une opportunité exceptionnelle de démarrer
+              une nouvelle vie dans un pays accueillant, multiculturel et
+              prospère, avec des programmes d'immigration diversifiés adaptés à
+              vos besoins spécifiques.
+            </p>
           </div>
-          <div className='w-full shadow-xl bg-gray-100 flex flex-col p-4 md:my-0 my-8 rounded-lg hover:scale-105 duration-300'>
-              <img className='w-20 mx-auto mt-[-3rem] bg-transparent' src={Double} alt="/" />
-              <h2 className='text-2xl font-bold text-center py-8'>Single User</h2>
-              <p className='text-center text-4xl font-bold'>$149</p>
-              <div className='text-center font-medium'>
-                  <p className='py-2 border-b mx-8 mt-8'>500 GB Storage</p>
-                  <p className='py-2 border-b mx-8'>1 Granted User</p>
-                  <p className='py-2 border-b mx-8'>Send up to 2 GB</p>
-              </div>
-              <button className='bg-black text-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3'>Start Trial</button>
+          {/* <button className="bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3">
+            Start Trial
+          </button> */}
+        </div>
+
+        <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
+          <h2 className="text-2xl font-bold text-center py-8">
+            Immigration au USA
+          </h2>
+          <img
+            className="text-center text-4xl font-bold "
+            src={Usa}
+            alt="/"
+          ></img>
+          <div className="text-center font-medium">
+            <p className="py-2 border-b mx-8 mt-8">
+              Les États-Unis sont une destination attrayante pour les immigrants
+              à la recherche de nouvelles perspectives professionnelles,
+              d'opportunités académiques et d'un mode de vie dynamique. Notre
+              agence vous accompagne dans les démarches complexes de
+              l'immigration aux États-Unis
+            </p>
           </div>
-          <div className='w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300'>
-              <img className='w-20 mx-auto mt-[-3rem] bg-white' src={Triple} alt="/" />
-              <h2 className='text-2xl font-bold text-center py-8'>Single User</h2>
-              <p className='text-center text-4xl font-bold'>$149</p>
-              <div className='text-center font-medium'>
-                  <p className='py-2 border-b mx-8 mt-8'>500 GB Storage</p>
-                  <p className='py-2 border-b mx-8'>1 Granted User</p>
-                  <p className='py-2 border-b mx-8'>Send up to 2 GB</p>
-              </div>
-              <button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3'>Start Trial</button>
-          </div>
+          {/* <button className="bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3">
+            Start Trial
+          </button> */}
+        </div>
       </div>
     </div>
   );

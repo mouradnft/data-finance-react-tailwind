@@ -1,23 +1,24 @@
 import React from 'react';
 
-const Newsletter = () => {
+export default function Opportunity() {
   return (
-    <div className=" w-full py-16 text-white px-4 text-center">
+    <div className=" w-full py-16 text-white px-4 text-center border-b ">
       <div className="max-w-[1240px] mx-auto grid  text-center ">
         <div className="lg:col-span-2 my-4 text-center ml-auto mr-auto">
           <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2 mb-10">
-            Prêt à franchir les frontières et à bâtir une nouvelle vie à
-            l'étranger ?
+            Prêt à vivre une expérience internationale inoubliable ?
           </h1>
           <p className="">
-            Notre agence d'immigration est là pour vous accompagner dans votre
-            projet d'immigration vers le Canada et les États-Unis. Nous
-            comprenons les défis et les questions auxquels vous faites face,
-            c'est pourquoi nous mettons notre expertise à votre service. De
-            l'obtention des visas à l'installation dans votre nouveau pays, nous
-            vous soutenons à chaque étape. Faites confiance à notre équipe
-            dévouée pour réaliser votre rêve d'une vie meilleure à l'étranger.
-            Contactez-nous dès aujourd'hui au{' '}
+            Notre agence de consulting d'étude à l'étranger vous ouvre les
+            portes des meilleures opportunités éducatives. Que vous souhaitiez
+            étudier au Canada, aux États-Unis, en France, en Espagne, en
+            Allemagne ou dans d'autres pays passionnants, nous avons les
+            solutions adaptées à vos ambitions académiques. Bénéficiez de notre
+            expertise pour choisir le programme d'études idéal, obtenir les
+            visas nécessaires et profiter d'une expérience éducative
+            enrichissante. Osez vous dépasser et construisez un avenir brillant
+            grâce à une éducation internationale de qualité.{' '}
+            {'                  '} Contactez-nous dès aujourd'hui au
             <a
               href="https://wa.me/+212664034137"
               className="text-blue-500"
@@ -53,6 +54,4 @@ const Newsletter = () => {
       </div>
     </div>
   );
-};
-
-export default Newsletter;
+}

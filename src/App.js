@@ -5,17 +5,23 @@ import Footer from './components/Footer';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import Newsletter from './components/Newsletter';
+import Etude from './components/Etude';
+import Study from './components/Study';
+import Opportunity from './components/opportunity';
 
 function App() {
   return (
-    <div>
+    <>
       <Navbar />
       <Hero />
       <Analytics />
-      <Newsletter />
       <Cards />
+      <Newsletter />
+      <Etude />
+      <Study />
+      <Opportunity />
       <Footer />
-    </div>
+    </>
   );
 }
 
